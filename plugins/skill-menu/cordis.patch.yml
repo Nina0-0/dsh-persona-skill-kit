@@ -1,0 +1,6 @@
+# The skill-menu bundle layer: one row that mounts the sidebar panel and its
+# read-only catalog route. The catalog itself comes from the host's own skill
+# registry, so this package ships no skill data.
+- insert:
+    - id: skill-menu
+      name: dsh-skill-menu

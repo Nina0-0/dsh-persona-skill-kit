@@ -1,0 +1,6 @@
+# The global-persona bundle layer: one host row that owns the personality
+# prompt (config: persona) and contributes it to every session's system prompt,
+# plus the browser half that renders the Settings page over the same entry.
+- insert:
+    - id: global-persona
+      name: dsh-global-persona
