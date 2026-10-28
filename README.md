@@ -17,14 +17,14 @@ English quick start: [see below](#english).
 
 在 DSH 里发一句：
 
-> 帮我安装这个仓库里的两个插件：`https://github.com/<you>/dsh-persona-skill-kit`，装好后告诉我怎么重启。
+> 帮我安装这个仓库里的两个插件：`https://github.com/Nina0-0/dsh-persona-skill-kit`，装好后告诉我怎么重启。
 
 Agent 会读本仓库的 [`INSTALL.md`](INSTALL.md)，执行安装脚本，并告诉你重启。
 
 ### 方式二：自己跑
 
 ```bash
-git clone https://github.com/<you>/dsh-persona-skill-kit
+git clone https://github.com/Nina0-0/dsh-persona-skill-kit
 cd dsh-persona-skill-kit
 node scripts/install.mjs --check     # 先看会改什么，不写入
 node scripts/install.mjs             # 安装到 detect 到的 profile

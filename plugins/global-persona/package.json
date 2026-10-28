@@ -27,6 +27,12 @@
       "platform": "web"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nina0-0/dsh-persona-skill-kit.git",
+    "directory": "plugins/global-persona"
+  },
+  "homepage": "https://github.com/Nina0-0/dsh-persona-skill-kit#readme",
   "license": "MIT",
   "peerDependencies": {
     "@deepseek-ai/cordis": "~4.0.5",
